@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import VENTouchLock
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        VENTouchLock.sharedInstance().setKeychainService("GoGreenService", keychainAccount: "GoGreenAccount", touchIDReason: "Scan your fingerprint to use GoGreen", passcodeAttemptLimit: 5, splashViewControllerClass: GoGreenSplashViewController.self)
         return true
     }
 
