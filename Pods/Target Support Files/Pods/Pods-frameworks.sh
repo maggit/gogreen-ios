@@ -48,10 +48,12 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'FoldingTabBar.framework'
   install_framework 'SSKeychain.framework'
   install_framework 'VENTouchLock.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'FoldingTabBar.framework'
   install_framework 'SSKeychain.framework'
   install_framework 'VENTouchLock.framework'
 fi

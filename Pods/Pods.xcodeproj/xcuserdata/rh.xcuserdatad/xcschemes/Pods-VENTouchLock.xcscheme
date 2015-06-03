@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54038D3648EE6FD429DD1965"
+               BlueprintIdentifier = "37F1D9226B2203B42B32E316"
                BuildableName = "VENTouchLock.framework"
                BlueprintName = "Pods-VENTouchLock"
                ReferencedContainer = "container:Pods.xcodeproj">

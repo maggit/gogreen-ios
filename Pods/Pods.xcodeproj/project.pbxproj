@@ -7,396 +7,497 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08D2FC37106EC9EA9A81E556 /* VENTouchLockAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BBCCF92F0B059E3F809EA2 /* VENTouchLockAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08F3B688F805C7DCA9983B2B /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 052CA55475616B6DF8F0AC42 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AD92D4032DAC841CC0B009D /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFF89E5BFD49061B5FEC38 /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		13E1FB8A44A3C94B81B8C2DF /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C11D6F063B9AC367A224320C /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		15FA2C52E940472AD8EB9E63 /* Pods-VENTouchLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F13F87A0029BD68445DD6F /* Pods-VENTouchLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1964C32724EF1C56AEA55AE3 /* VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7B8D6F8F0C066831AA56E /* VENTouchLock.m */; };
-		1BA9F7F903B438AB14F45676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994FCC65AAD18424E20533E2 /* Foundation.framework */; };
-		1CA0C03C6A1B80E7A514AA93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68CA4388F56083AE2427BE0 /* Security.framework */; };
-		2035D2E65115F12ADBDF1304 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFEC41687B320082218FD96 /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2083EFB22B63C22BDDB31D65 /* VENTouchLockPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D1D2465078EF19A609996 /* VENTouchLockPasscodeView.m */; };
-		2651390A942CA599E01BDAD8 /* VENTouchLockPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88B6FF9497CE9F0741B468 /* VENTouchLockPasscodeViewController.m */; };
-		34CB07504CEF54BA1D1FA5C1 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 770CA9CB83995F29ED7F5158 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B30743B9A9126A98C978AE3 /* VENTouchLockEnterPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7FF7D07250734B622EF462 /* VENTouchLockEnterPasscodeViewController.m */; };
-		3DC68291DD2A3169672C066E /* VENTouchLockSplashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7F3A586A9740601B066E4E /* VENTouchLockSplashViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E863F619E213AD06DDBA91D /* VENTouchLockPasscodeCharacterView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA80B7A75C37358C9B5335C1 /* VENTouchLockPasscodeCharacterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E274451EA1F69DF0C35065E /* Pods-VENTouchLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A47D175945E09D59294A50 /* Pods-VENTouchLock-dummy.m */; };
-		51AA191405505AC38EB3755C /* VENTouchLockAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC8570758422EA35872D5F3 /* VENTouchLockAppearance.m */; };
-		65321F830BFB31C2A2234176 /* VENTouchLockPasscodeCharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5940981B15EA7EBD46954D33 /* VENTouchLockPasscodeCharacterView.m */; };
-		6EBA84FFCC6A0BB67FFF0140 /* VENTouchLockCreatePasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C8421E11A58B824AACE85D8F /* VENTouchLockCreatePasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89EB27F2B8177E2FD0EA90EC /* VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD6A2254AE5DEAF39D08675 /* VENTouchLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A55FDEFE95860875EBD0FB0 /* Pods-SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B117AF1446D9DB975DAD1FE /* Pods-SSKeychain-dummy.m */; };
-		8CB524DB8B57A1EE49B5EC42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994FCC65AAD18424E20533E2 /* Foundation.framework */; };
-		8DFB06BB6C406B7A39BA73F6 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9558FE71BAE29838580C0ED3 /* LocalAuthentication.framework */; };
-		9A240C856DFC2811942B7074 /* VENTouchLockSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AF5F27B22AC387472DEBC2 /* VENTouchLockSplashViewController.m */; };
-		9C01D94B0E40E1BC2523477C /* UIViewController+VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE18B9E3D242CE9A2751BF /* UIViewController+VENTouchLock.m */; };
-		9FED0469B071CB9CF68CAF27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994FCC65AAD18424E20533E2 /* Foundation.framework */; };
-		9FFC5A1BFEBF5F02C89BA927 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D244EAD4111F6F7F7F51C9 /* SSKeychain.framework */; };
-		AC142C3615008EC94EE56EE4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D15BB4675D2C4FCDA0A0F4 /* Pods-dummy.m */; };
-		B1625C01BB55658B59E24B13 /* UIViewController+VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B22359BAA585FC1F0E31577 /* UIViewController+VENTouchLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1D40FF9D617D9387E9549E9 /* Pods-SSKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C18D884BEC66CCF41990746 /* Pods-SSKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2F5F352DF3ACBD13ED763D9 /* VENTouchLockPasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB4A89A16AD07C1E8E0D507 /* VENTouchLockPasscodeView.xib */; };
-		B867C072098022081451062A /* VENTouchLockPasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C49773ED939B1E869F9E0E2 /* VENTouchLockPasscodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5A4CEB539DBCF61A93B0693 /* VENTouchLockCreatePasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ECDAF1B2B1AE865B4A2D5C /* VENTouchLockCreatePasscodeViewController.m */; };
-		DD01B081FD4B99878E15E17A /* VENTouchLockPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7100D1B65CCC01244F41DCE /* VENTouchLockPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F548A4622E09978A74A1FEFB /* VENTouchLockEnterPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAF7295AA360DFC1017E367 /* VENTouchLockEnterPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		008A12623389D0D6747F5F4B /* Pods-SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5084FD98AB823FAFFF62D /* Pods-SSKeychain-dummy.m */; };
+		01FD50B0BDEF228E1D817F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A19D94FDF558600072C97 /* Foundation.framework */; };
+		071541F2A7BC779C5D7D872C /* Pods-FoldingTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE31D370B9F5A835C40023 /* Pods-FoldingTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D712C5653EE30C930B86E3 /* VENTouchLockEnterPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C59AFA11CE7A535DEC74C92 /* VENTouchLockEnterPasscodeViewController.m */; };
+		0A21643A414318DD021F4033 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C17A6A74F48230EDEF885F /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		108A54EFAA0917E1A2D1EA73 /* VENTouchLockPasscodeCharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A8B6193F4AD06C9ABAF4B /* VENTouchLockPasscodeCharacterView.m */; };
+		11914321C7864D8A51969CF1 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DCFFBEAED8C45DA947B719 /* CATransaction+TransactionWithAnimationsAndCompletion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1472D4B52F6A74BB43832DD2 /* VENTouchLockPasscodeCharacterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12155D6F7CAD6B1A26D37CC1 /* VENTouchLockPasscodeCharacterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BA4CD2E03CD47C8B656BE58 /* VENTouchLockCreatePasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB0BAB8CB2984EAC81A0C6 /* VENTouchLockCreatePasscodeViewController.m */; };
+		1CD425D2AB3FA6104AEEA019 /* VENTouchLockPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BBD91A188BBC9FE116E033 /* VENTouchLockPasscodeViewController.m */; };
+		20D45496A52DFAAC12EE12CC /* VENTouchLockAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 874AB256DA101706CACD3BEE /* VENTouchLockAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CC6971917112AF2FDD6205 /* UIViewController+VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2539DADDE67425CB7F95C6FB /* UIViewController+VENTouchLock.m */; };
+		2B8AA876482B5EBDD5AE0F0A /* VENTouchLockSplashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A0012310DDD8A25AB08CC7 /* VENTouchLockSplashViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3149709BC0FDA4D34014B2C0 /* VENTouchLockAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2CC2C318FE021838F71B20 /* VENTouchLockAppearance.m */; };
+		317BDBC40FC60FDE649C18DF /* VENTouchLockSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33CD7D6462748CD5A9AFFD /* VENTouchLockSplashViewController.m */; };
+		3249B978A4647EDD6FB1A5C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A19D94FDF558600072C97 /* Foundation.framework */; };
+		341B00C05BF4A93B44AD1C91 /* YALTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FD26E591500308C80542BDC0 /* YALTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37CEE8476879AB369008059A /* VENTouchLockPasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9221E40A174D1A1BBA8196 /* VENTouchLockPasscodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3896728E8FB6B14832F49688 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4F60E9386BA09AB51E181D /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392FF50AAFBC6896BEB762F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90A8F227646D602034CD5F /* Security.framework */; };
+		396F8E1D71D5AB97BA0C9171 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FA4FA9D4894746818B10F9 /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		403FE2E2E6B632269F90D5F8 /* Pods-VENTouchLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E96BEF14295B5F1095C381 /* Pods-VENTouchLock-dummy.m */; };
+		4AB151CB71C46DF863689383 /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920915D942A43D855A99B119 /* YALFoldingTabBarController.m */; };
+		4DDE5437ABE6C3ABCBBAD08F /* Pods-VENTouchLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A2CE3C7F025DDF92B34AD8 /* Pods-VENTouchLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A972179A8D1C6D978442DE5 /* YALSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CE2100F8218BAE9B9A7F44 /* YALSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CBFEC1D401029F0CD078142 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC198209B017D0AFA931E99 /* UIKit.framework */; };
+		5DB70E956C2123AABB1892CC /* YALAnimatingTabBarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DF70F12FF6C12B15FA509778 /* YALAnimatingTabBarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F63ED7E5DEBBFD4D4D2CCAC /* CAAnimation+YALTabBarViewAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8228A2BF4B30799E54E15E /* CAAnimation+YALTabBarViewAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B1A3488353AEDAC11509576 /* YALFoldingTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DF655CE2966911DA24A070 /* YALFoldingTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C23BB1D7FF9775FCEE2BA85 /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D218D15D0ABEB7F5977DA423 /* YALFoldingTabBar.m */; };
+		85FD394DA5399560631350A8 /* YALFoldingTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 516B55C3463CF2644D6D7DD9 /* YALFoldingTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F665E8EF042FBB32E99760 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E3B12164BEC908F534DC6 /* Pods-dummy.m */; };
+		8CF3EA78B68A866137FE51CF /* YALTabBarInteracting.h in Headers */ = {isa = PBXBuildFile; fileRef = 516BE2189708007F0961EEF8 /* YALTabBarInteracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1BB9130911A3A4C808FEE7 /* VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1425ED99A4D3EA64FED0A2 /* VENTouchLock.m */; };
+		8E751E7BBE5D4FD433E1751C /* VENTouchLockPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FE72CBCE97162304CBF575 /* VENTouchLockPasscodeView.m */; };
+		8F44D7914E0D47B21FB36198 /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7EBD7CCC95CB08AC7E38C /* CAAnimation+YALTabBarViewAnimations.m */; };
+		933FD9EAD729A32646ED4FFA /* VENTouchLockEnterPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1101E2BF18A878316944AE7A /* VENTouchLockEnterPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97001992AE271A506AD210EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B631E5027FDDAF973AD0AB3 /* QuartzCore.framework */; };
+		9E3499CDE742C3ED154F019B /* Pods-SSKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7336319697D3119496E8DB0 /* Pods-SSKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07917CFB14CAF732195F9F9 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164CB4EAD7790AAA74322EB5 /* SSKeychain.framework */; };
+		A752F0DB45DE0BB56248C1A9 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F07B9C9F41303A16D49610 /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8F8775A868D8E4FBA58846 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E05F1ED07833505E61350A5D /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9162AE68C5D1303FF019C21 /* Pods-FoldingTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB826647A636008E0CA008C1 /* Pods-FoldingTabBar-dummy.m */; };
+		BA348E4D7F2BCFA9D6A65FF4 /* UIViewController+VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1AA126EAA9AE8D512A017A /* UIViewController+VENTouchLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A738E2C03300E550EDDEA0 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D49D6EDF6C2F59CA0C1FDE /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
+		CEC7B4B456C4C3700856D63C /* VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = F2159B2B4FB30BDB32D71D81 /* VENTouchLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D681217CE0DFD021B9D4ED66 /* VENTouchLockCreatePasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A17716005E19DC536BD6EDD /* VENTouchLockCreatePasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D82FB7D588F6951BB94A5313 /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C259C0AF07D07FFD5EF6593 /* YALTabBarItem.m */; };
+		D9A176E264C9459466AA0171 /* VENTouchLockPasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E82BF60A5C4EB76FB829BA0F /* VENTouchLockPasscodeView.xib */; };
+		DD24A0E93178DB2DF198589A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A19D94FDF558600072C97 /* Foundation.framework */; };
+		E57A602B8DA5F1BBEB444915 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F496760128A38BB666AC9585 /* LocalAuthentication.framework */; };
+		E624251AEACB857E55CBAAE6 /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 146972BDFA0496276455389E /* YALAnimatingTabBarConstants.m */; };
+		E6334B6B93F3F83C9491C81A /* VENTouchLockPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C87C17C64EAF00F2626C3C3 /* VENTouchLockPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F056C3D4B9363175EE1DAF31 /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F83DCAE7B972B7F52DA544 /* YALSpringAnimation.m */; };
+		F2E9156B881B740F01FC99FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A19D94FDF558600072C97 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		97C39602E51C34A5A56D9C22 /* PBXContainerItemProxy */ = {
+		2E6E9D371CBBED453C574670 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B2DE7FCBC3520D5893E42AA /* Project object */;
+			containerPortal = BD3E7BFE8EC526A1B67FFB23 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 924FF6DFBD546BD63B691DBE;
+			remoteGlobalIDString = EF83F3BBADF7851903ED405D;
+			remoteInfo = "Pods-FoldingTabBar";
+		};
+		548DDE4EA98B7B7FCB84D554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3E7BFE8EC526A1B67FFB23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7609C03A4483FFC4316D3B05;
 			remoteInfo = "Pods-SSKeychain";
 		};
-		E795241A0D306B05E2E33F7A /* PBXContainerItemProxy */ = {
+		59A54A45D8954D6CBA9D2976 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B2DE7FCBC3520D5893E42AA /* Project object */;
+			containerPortal = BD3E7BFE8EC526A1B67FFB23 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 924FF6DFBD546BD63B691DBE;
-			remoteInfo = "Pods-SSKeychain";
-		};
-		FB53ED3FE94353ADC8F0FA2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B2DE7FCBC3520D5893E42AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54038D3648EE6FD429DD1965;
+			remoteGlobalIDString = 37F1D9226B2203B42B32E316;
 			remoteInfo = "Pods-VENTouchLock";
+		};
+		9823116AEAED6375189FE873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3E7BFE8EC526A1B67FFB23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7609C03A4483FFC4316D3B05;
+			remoteInfo = "Pods-SSKeychain";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FFF89E5BFD49061B5FEC38 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
-		052CA55475616B6DF8F0AC42 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
-		0AD6A2254AE5DEAF39D08675 /* VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLock.h; path = VENTouchLock/VENTouchLock.h; sourceTree = "<group>"; };
-		0CAF7295AA360DFC1017E367 /* VENTouchLockEnterPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockEnterPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.h; sourceTree = "<group>"; };
-		168AD1E31245ECE74CD0FCDF /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		1871E4830D80CEB9A9756D69 /* Pods-VENTouchLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VENTouchLock-prefix.pch"; sourceTree = "<group>"; };
-		20AE18B9E3D242CE9A2751BF /* UIViewController+VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+VENTouchLock.m"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.m"; sourceTree = "<group>"; };
-		2B117AF1446D9DB975DAD1FE /* Pods-SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSKeychain-dummy.m"; sourceTree = "<group>"; };
-		2B22359BAA585FC1F0E31577 /* UIViewController+VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VENTouchLock.h"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.h"; sourceTree = "<group>"; };
-		38ECDAF1B2B1AE865B4A2D5C /* VENTouchLockCreatePasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockCreatePasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.m; sourceTree = "<group>"; };
-		3DA0BB6D53C422A7ABEFE9A7 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		4597B41C5ED8322150D61DEC /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		46EAE45460F1C08ED750A584 /* VENTouchLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VENTouchLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DDAA23F03A14F9FD4EB01FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DFEC41687B320082218FD96 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
-		560C14B6D807B18AB0AF8E63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5940981B15EA7EBD46954D33 /* VENTouchLockPasscodeCharacterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeCharacterView.m; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.m; sourceTree = "<group>"; };
-		5BC7B8D6F8F0C066831AA56E /* VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLock.m; path = VENTouchLock/VENTouchLock.m; sourceTree = "<group>"; };
-		5DEBAE8EC51C85C77D5E8FED /* Pods-SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSKeychain-prefix.pch"; sourceTree = "<group>"; };
-		5ED2B49C2DFAA415B6821077 /* Pods-SSKeychain-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSKeychain-Private.xcconfig"; sourceTree = "<group>"; };
-		61D15BB4675D2C4FCDA0A0F4 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		6C49773ED939B1E869F9E0E2 /* VENTouchLockPasscodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeView.h; path = VENTouchLock/Views/VENTouchLockPasscodeView.h; sourceTree = "<group>"; };
-		7066CB4DF2AE385BDB736802 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71D244EAD4111F6F7F7F51C9 /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		770CA9CB83995F29ED7F5158 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		7DA6647492D68DC0AAF2DA43 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		80BBCCF92F0B059E3F809EA2 /* VENTouchLockAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockAppearance.h; path = VENTouchLock/Models/VENTouchLockAppearance.h; sourceTree = "<group>"; };
-		83F1574CC66A2CD3A8E8A602 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		849D1D2465078EF19A609996 /* VENTouchLockPasscodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeView.m; path = VENTouchLock/Views/VENTouchLockPasscodeView.m; sourceTree = "<group>"; };
-		8C18D884BEC66CCF41990746 /* Pods-SSKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSKeychain-umbrella.h"; sourceTree = "<group>"; };
-		9558FE71BAE29838580C0ED3 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
-		968FAD11C326976A35DDDAC2 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		994FCC65AAD18424E20533E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		99A47D175945E09D59294A50 /* Pods-VENTouchLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VENTouchLock-dummy.m"; sourceTree = "<group>"; };
-		9AF6316490F09B27809C7E73 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9E7F3A586A9740601B066E4E /* VENTouchLockSplashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockSplashViewController.h; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.h; sourceTree = "<group>"; };
-		9FB4A89A16AD07C1E8E0D507 /* VENTouchLockPasscodeView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VENTouchLockPasscodeView.xib; path = VENTouchLock/Views/VENTouchLockPasscodeView.xib; sourceTree = "<group>"; };
-		A4F13F87A0029BD68445DD6F /* Pods-VENTouchLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VENTouchLock-umbrella.h"; sourceTree = "<group>"; };
-		A87E2F6202722A8B891CA0D8 /* Pods-SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSKeychain.xcconfig"; sourceTree = "<group>"; };
-		ACC8570758422EA35872D5F3 /* VENTouchLockAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockAppearance.m; path = VENTouchLock/Models/VENTouchLockAppearance.m; sourceTree = "<group>"; };
-		B620A66620E0EC21010C9E30 /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA80B7A75C37358C9B5335C1 /* VENTouchLockPasscodeCharacterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeCharacterView.h; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.h; sourceTree = "<group>"; };
-		C11D6F063B9AC367A224320C /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
-		C68CA4388F56083AE2427BE0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		C6F616F5C7EC6E264E249BB2 /* Pods-VENTouchLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VENTouchLock.modulemap"; sourceTree = "<group>"; };
-		C8421E11A58B824AACE85D8F /* VENTouchLockCreatePasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockCreatePasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.h; sourceTree = "<group>"; };
-		C9836AA2F1C6F0741655B359 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		CD88B6FF9497CE9F0741B468 /* VENTouchLockPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.m; sourceTree = "<group>"; };
-		CE7FF7D07250734B622EF462 /* VENTouchLockEnterPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockEnterPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.m; sourceTree = "<group>"; };
-		D0AF5F27B22AC387472DEBC2 /* VENTouchLockSplashViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockSplashViewController.m; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.m; sourceTree = "<group>"; };
-		D3DC3B34A4EA544E491D054F /* Pods-SSKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SSKeychain.modulemap"; sourceTree = "<group>"; };
-		D7100D1B65CCC01244F41DCE /* VENTouchLockPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.h; sourceTree = "<group>"; };
-		DC4ACD4FF672E7EBC232F618 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		E99B1C60BFCB42249602765A /* Pods-VENTouchLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VENTouchLock.xcconfig"; sourceTree = "<group>"; };
-		F22E74FA474637E0191B206E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F4C0348891BB12BF55BC4D7B /* Pods-VENTouchLock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VENTouchLock-Private.xcconfig"; sourceTree = "<group>"; };
+		006A19D94FDF558600072C97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		02CDF8AD94FB25565C734FF8 /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0460C306BF196F6DA63B6B5C /* VENTouchLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VENTouchLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		074E555635A6C2F60E17EB52 /* Pods-VENTouchLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VENTouchLock.modulemap"; sourceTree = "<group>"; };
+		0753B4B3DF6D1636F815E46E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F83DCAE7B972B7F52DA544 /* YALSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALSpringAnimation.m; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m; sourceTree = "<group>"; };
+		0C8E3B12164BEC908F534DC6 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		1101E2BF18A878316944AE7A /* VENTouchLockEnterPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockEnterPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.h; sourceTree = "<group>"; };
+		12155D6F7CAD6B1A26D37CC1 /* VENTouchLockPasscodeCharacterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeCharacterView.h; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.h; sourceTree = "<group>"; };
+		146972BDFA0496276455389E /* YALAnimatingTabBarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALAnimatingTabBarConstants.m; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.m; sourceTree = "<group>"; };
+		164CB4EAD7790AAA74322EB5 /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E96BEF14295B5F1095C381 /* Pods-VENTouchLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VENTouchLock-dummy.m"; sourceTree = "<group>"; };
+		1B930D4F0352BF9F02915714 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C73B5E5606447B0DF33C49E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2484EF7C2974E13F156FF17E /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		2539DADDE67425CB7F95C6FB /* UIViewController+VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+VENTouchLock.m"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.m"; sourceTree = "<group>"; };
+		2A1AA126EAA9AE8D512A017A /* UIViewController+VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VENTouchLock.h"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.h"; sourceTree = "<group>"; };
+		2EBDA7C715F73D46AAE01AC7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		36F07B9C9F41303A16D49610 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		3A17716005E19DC536BD6EDD /* VENTouchLockCreatePasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockCreatePasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.h; sourceTree = "<group>"; };
+		3C0A2B7FA654B1D600531FE3 /* Pods-VENTouchLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VENTouchLock-prefix.pch"; sourceTree = "<group>"; };
+		4239AD4E6BA1B7E9782C766A /* Pods-FoldingTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoldingTabBar-prefix.pch"; sourceTree = "<group>"; };
+		4453C64DDB24BF479922B5AA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462B644C5B6CBAD4AEAFFA72 /* Pods-FoldingTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoldingTabBar.xcconfig"; sourceTree = "<group>"; };
+		47A2CE3C7F025DDF92B34AD8 /* Pods-VENTouchLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VENTouchLock-umbrella.h"; sourceTree = "<group>"; };
+		4B631E5027FDDAF973AD0AB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		516B55C3463CF2644D6D7DD9 /* YALFoldingTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBar.h; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h; sourceTree = "<group>"; };
+		516BE2189708007F0961EEF8 /* YALTabBarInteracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarInteracting.h; path = FoldingTabBar/Protocol/TabBarInteracting/YALTabBarInteracting.h; sourceTree = "<group>"; };
+		5A1425ED99A4D3EA64FED0A2 /* VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLock.m; path = VENTouchLock/VENTouchLock.m; sourceTree = "<group>"; };
+		5FC198209B017D0AFA931E99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		615467E50210BB4F255E455E /* Pods-SSKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SSKeychain.modulemap"; sourceTree = "<group>"; };
+		62FE72CBCE97162304CBF575 /* VENTouchLockPasscodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeView.m; path = VENTouchLock/Views/VENTouchLockPasscodeView.m; sourceTree = "<group>"; };
+		64CE2100F8218BAE9B9A7F44 /* YALSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALSpringAnimation.h; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h; sourceTree = "<group>"; };
+		64D49D6EDF6C2F59CA0C1FDE /* CATransaction+TransactionWithAnimationsAndCompletion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+TransactionWithAnimationsAndCompletion.m"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m"; sourceTree = "<group>"; };
+		6A33CD7D6462748CD5A9AFFD /* VENTouchLockSplashViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockSplashViewController.m; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.m; sourceTree = "<group>"; };
+		6ACA4C7DD8808133577D9509 /* Pods-FoldingTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FoldingTabBar.modulemap"; sourceTree = "<group>"; };
+		6C59AFA11CE7A535DEC74C92 /* VENTouchLockEnterPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockEnterPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.m; sourceTree = "<group>"; };
+		6C87C17C64EAF00F2626C3C3 /* VENTouchLockPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.h; sourceTree = "<group>"; };
+		72C949AA6486BC12CD12AB8D /* Pods-VENTouchLock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VENTouchLock-Private.xcconfig"; sourceTree = "<group>"; };
+		749A8B6193F4AD06C9ABAF4B /* VENTouchLockPasscodeCharacterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeCharacterView.m; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.m; sourceTree = "<group>"; };
+		788D0D85BD4411EA62ACC775 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		78FA4FA9D4894746818B10F9 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		79EB0BAB8CB2984EAC81A0C6 /* VENTouchLockCreatePasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockCreatePasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.m; sourceTree = "<group>"; };
+		7C259C0AF07D07FFD5EF6593 /* YALTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALTabBarItem.m; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.m; sourceTree = "<group>"; };
+		7D09322C6CD9C24DD212433B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		874AB256DA101706CACD3BEE /* VENTouchLockAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockAppearance.h; path = VENTouchLock/Models/VENTouchLockAppearance.h; sourceTree = "<group>"; };
+		875D516AAC7861843A1E6770 /* Pods-FoldingTabBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoldingTabBar-Private.xcconfig"; sourceTree = "<group>"; };
+		88C08ACA4A4D3336FFAE067D /* Pods-SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSKeychain.xcconfig"; sourceTree = "<group>"; };
+		8C4F60E9386BA09AB51E181D /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		8E283AAD10C9859EF7489EE0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		920915D942A43D855A99B119 /* YALFoldingTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBarController.m; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m; sourceTree = "<group>"; };
+		98B7EBD7CCC95CB08AC7E38C /* CAAnimation+YALTabBarViewAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+YALTabBarViewAnimations.m"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m"; sourceTree = "<group>"; };
+		99DE2D7F1BFB268E7BB1B667 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9221E40A174D1A1BBA8196 /* VENTouchLockPasscodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeView.h; path = VENTouchLock/Views/VENTouchLockPasscodeView.h; sourceTree = "<group>"; };
+		A7DCFFBEAED8C45DA947B719 /* CATransaction+TransactionWithAnimationsAndCompletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+TransactionWithAnimationsAndCompletion.h"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h"; sourceTree = "<group>"; };
+		AA9FCDC13AF59350D538755F /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		AAD5084FD98AB823FAFFF62D /* Pods-SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		AC4962A7E081563898A1B8A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8228A2BF4B30799E54E15E /* CAAnimation+YALTabBarViewAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+YALTabBarViewAnimations.h"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h"; sourceTree = "<group>"; };
+		B8DF01D154C703175C641F10 /* Pods-VENTouchLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VENTouchLock.xcconfig"; sourceTree = "<group>"; };
+		BBAE31D370B9F5A835C40023 /* Pods-FoldingTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoldingTabBar-umbrella.h"; sourceTree = "<group>"; };
+		BE2CC2C318FE021838F71B20 /* VENTouchLockAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockAppearance.m; path = VENTouchLock/Models/VENTouchLockAppearance.m; sourceTree = "<group>"; };
+		C3BBD91A188BBC9FE116E033 /* VENTouchLockPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.m; sourceTree = "<group>"; };
+		D218D15D0ABEB7F5977DA423 /* YALFoldingTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBar.m; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m; sourceTree = "<group>"; };
+		D35BD3D2D41FD888D1F3DB89 /* FoldingTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoldingTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C933F2A6DB21CDE55119D3 /* Pods-SSKeychain-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSKeychain-Private.xcconfig"; sourceTree = "<group>"; };
+		D6DF655CE2966911DA24A070 /* YALFoldingTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBarController.h; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h; sourceTree = "<group>"; };
+		DF70F12FF6C12B15FA509778 /* YALAnimatingTabBarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALAnimatingTabBarConstants.h; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.h; sourceTree = "<group>"; };
+		DF90A8F227646D602034CD5F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E05F1ED07833505E61350A5D /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		E4BD7C1448D6BB7E067096B8 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7336319697D3119496E8DB0 /* Pods-SSKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSKeychain-umbrella.h"; sourceTree = "<group>"; };
+		E7AD33223FFAEAFCE8C304B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		E82BF60A5C4EB76FB829BA0F /* VENTouchLockPasscodeView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VENTouchLockPasscodeView.xib; path = VENTouchLock/Views/VENTouchLockPasscodeView.xib; sourceTree = "<group>"; };
+		F1C17A6A74F48230EDEF885F /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		F2159B2B4FB30BDB32D71D81 /* VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLock.h; path = VENTouchLock/VENTouchLock.h; sourceTree = "<group>"; };
+		F2A0012310DDD8A25AB08CC7 /* VENTouchLockSplashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockSplashViewController.h; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.h; sourceTree = "<group>"; };
+		F496760128A38BB666AC9585 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		FB826647A636008E0CA008C1 /* Pods-FoldingTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoldingTabBar-dummy.m"; sourceTree = "<group>"; };
+		FC53D2B6AFC973B8B5B8A407 /* Pods-SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		FD26E591500308C80542BDC0 /* YALTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarItem.h; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7BA4B975347EF854B0CE78DD /* Frameworks */ = {
+		17FD31C1C081D83800A11C2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB524DB8B57A1EE49B5EC42 /* Foundation.framework in Frameworks */,
-				1CA0C03C6A1B80E7A514AA93 /* Security.framework in Frameworks */,
+				F2E9156B881B740F01FC99FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BE2C5DC5864466F7B5A21BA /* Frameworks */ = {
+		1D1D126B7524145F1CB57CF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FED0469B071CB9CF68CAF27 /* Foundation.framework in Frameworks */,
-				8DFB06BB6C406B7A39BA73F6 /* LocalAuthentication.framework in Frameworks */,
-				9FFC5A1BFEBF5F02C89BA927 /* SSKeychain.framework in Frameworks */,
+				3249B978A4647EDD6FB1A5C1 /* Foundation.framework in Frameworks */,
+				392FF50AAFBC6896BEB762F2 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFAA25C52E8FE0B454B17996 /* Frameworks */ = {
+		7BF229ADA1079654D913E159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA9F7F903B438AB14F45676 /* Foundation.framework in Frameworks */,
+				DD24A0E93178DB2DF198589A /* Foundation.framework in Frameworks */,
+				97001992AE271A506AD210EF /* QuartzCore.framework in Frameworks */,
+				5CBFEC1D401029F0CD078142 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72FC93129D95B3D3A268055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD50B0BDEF228E1D817F5B /* Foundation.framework in Frameworks */,
+				E57A602B8DA5F1BBEB444915 /* LocalAuthentication.framework in Frameworks */,
+				A07917CFB14CAF732195F9F9 /* SSKeychain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16174ACCB29EB58CF44678DB /* Resources */ = {
+		1C2E6E92500C82FE18C65C23 /* VENTouchLock */ = {
 			isa = PBXGroup;
 			children = (
-				9FB4A89A16AD07C1E8E0D507 /* VENTouchLockPasscodeView.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		16E9241D82B9C06F76E9DC01 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7066CB4DF2AE385BDB736802 /* Pods.framework */,
-				B620A66620E0EC21010C9E30 /* SSKeychain.framework */,
-				46EAE45460F1C08ED750A584 /* VENTouchLock.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1FF7D122E44E08B95CCE97C4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				71D244EAD4111F6F7F7F51C9 /* SSKeychain.framework */,
-				C5A094C6035F5DEE97E1C949 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2316D07B21C9634CEAD0062C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4DDAA23F03A14F9FD4EB01FE /* Info.plist */,
-				D3DC3B34A4EA544E491D054F /* Pods-SSKeychain.modulemap */,
-				A87E2F6202722A8B891CA0D8 /* Pods-SSKeychain.xcconfig */,
-				5ED2B49C2DFAA415B6821077 /* Pods-SSKeychain-Private.xcconfig */,
-				2B117AF1446D9DB975DAD1FE /* Pods-SSKeychain-dummy.m */,
-				5DEBAE8EC51C85C77D5E8FED /* Pods-SSKeychain-prefix.pch */,
-				8C18D884BEC66CCF41990746 /* Pods-SSKeychain-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-SSKeychain";
-			sourceTree = "<group>";
-		};
-		33A7C6BDDAB02A5AED76FD4F /* VENTouchLock */ = {
-			isa = PBXGroup;
-			children = (
-				2B22359BAA585FC1F0E31577 /* UIViewController+VENTouchLock.h */,
-				20AE18B9E3D242CE9A2751BF /* UIViewController+VENTouchLock.m */,
-				0AD6A2254AE5DEAF39D08675 /* VENTouchLock.h */,
-				5BC7B8D6F8F0C066831AA56E /* VENTouchLock.m */,
-				80BBCCF92F0B059E3F809EA2 /* VENTouchLockAppearance.h */,
-				ACC8570758422EA35872D5F3 /* VENTouchLockAppearance.m */,
-				C8421E11A58B824AACE85D8F /* VENTouchLockCreatePasscodeViewController.h */,
-				38ECDAF1B2B1AE865B4A2D5C /* VENTouchLockCreatePasscodeViewController.m */,
-				0CAF7295AA360DFC1017E367 /* VENTouchLockEnterPasscodeViewController.h */,
-				CE7FF7D07250734B622EF462 /* VENTouchLockEnterPasscodeViewController.m */,
-				BA80B7A75C37358C9B5335C1 /* VENTouchLockPasscodeCharacterView.h */,
-				5940981B15EA7EBD46954D33 /* VENTouchLockPasscodeCharacterView.m */,
-				6C49773ED939B1E869F9E0E2 /* VENTouchLockPasscodeView.h */,
-				849D1D2465078EF19A609996 /* VENTouchLockPasscodeView.m */,
-				D7100D1B65CCC01244F41DCE /* VENTouchLockPasscodeViewController.h */,
-				CD88B6FF9497CE9F0741B468 /* VENTouchLockPasscodeViewController.m */,
-				9E7F3A586A9740601B066E4E /* VENTouchLockSplashViewController.h */,
-				D0AF5F27B22AC387472DEBC2 /* VENTouchLockSplashViewController.m */,
-				16174ACCB29EB58CF44678DB /* Resources */,
-				FBE943B3B43A92C114347AAE /* Support Files */,
+				2A1AA126EAA9AE8D512A017A /* UIViewController+VENTouchLock.h */,
+				2539DADDE67425CB7F95C6FB /* UIViewController+VENTouchLock.m */,
+				F2159B2B4FB30BDB32D71D81 /* VENTouchLock.h */,
+				5A1425ED99A4D3EA64FED0A2 /* VENTouchLock.m */,
+				874AB256DA101706CACD3BEE /* VENTouchLockAppearance.h */,
+				BE2CC2C318FE021838F71B20 /* VENTouchLockAppearance.m */,
+				3A17716005E19DC536BD6EDD /* VENTouchLockCreatePasscodeViewController.h */,
+				79EB0BAB8CB2984EAC81A0C6 /* VENTouchLockCreatePasscodeViewController.m */,
+				1101E2BF18A878316944AE7A /* VENTouchLockEnterPasscodeViewController.h */,
+				6C59AFA11CE7A535DEC74C92 /* VENTouchLockEnterPasscodeViewController.m */,
+				12155D6F7CAD6B1A26D37CC1 /* VENTouchLockPasscodeCharacterView.h */,
+				749A8B6193F4AD06C9ABAF4B /* VENTouchLockPasscodeCharacterView.m */,
+				9B9221E40A174D1A1BBA8196 /* VENTouchLockPasscodeView.h */,
+				62FE72CBCE97162304CBF575 /* VENTouchLockPasscodeView.m */,
+				6C87C17C64EAF00F2626C3C3 /* VENTouchLockPasscodeViewController.h */,
+				C3BBD91A188BBC9FE116E033 /* VENTouchLockPasscodeViewController.m */,
+				F2A0012310DDD8A25AB08CC7 /* VENTouchLockSplashViewController.h */,
+				6A33CD7D6462748CD5A9AFFD /* VENTouchLockSplashViewController.m */,
+				2F6CDC514AB6C68E2BA0BC50 /* Resources */,
+				3BCFAC70FDF980791A78697D /* Support Files */,
 			);
 			path = VENTouchLock;
 			sourceTree = "<group>";
 		};
-		6A0C33FFDFF1901DEBEDF062 /* SSKeychain */ = {
+		2F6CDC514AB6C68E2BA0BC50 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				052CA55475616B6DF8F0AC42 /* SSKeychain.h */,
-				02FFF89E5BFD49061B5FEC38 /* SSKeychain.m */,
-				4DFEC41687B320082218FD96 /* SSKeychainQuery.h */,
-				C11D6F063B9AC367A224320C /* SSKeychainQuery.m */,
-				2316D07B21C9634CEAD0062C /* Support Files */,
+				E82BF60A5C4EB76FB829BA0F /* VENTouchLockPasscodeView.xib */,
 			);
-			path = SSKeychain;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		84DA06FAB83B71D5C545EAD1 = {
+		3BCFAC70FDF980791A78697D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F22E74FA474637E0191B206E /* Podfile */,
-				1FF7D122E44E08B95CCE97C4 /* Frameworks */,
-				F97086C336FC9AE67AD59AE4 /* Pods */,
-				16E9241D82B9C06F76E9DC01 /* Products */,
-				8ACB053C34582F335A33687A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8ACB053C34582F335A33687A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6C0DB72177A3C8869FD18CD /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B6C0DB72177A3C8869FD18CD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				560C14B6D807B18AB0AF8E63 /* Info.plist */,
-				3DA0BB6D53C422A7ABEFE9A7 /* Pods.modulemap */,
-				9AF6316490F09B27809C7E73 /* Pods-acknowledgements.markdown */,
-				168AD1E31245ECE74CD0FCDF /* Pods-acknowledgements.plist */,
-				61D15BB4675D2C4FCDA0A0F4 /* Pods-dummy.m */,
-				4597B41C5ED8322150D61DEC /* Pods-environment.h */,
-				968FAD11C326976A35DDDAC2 /* Pods-frameworks.sh */,
-				DC4ACD4FF672E7EBC232F618 /* Pods-resources.sh */,
-				770CA9CB83995F29ED7F5158 /* Pods-umbrella.h */,
-				7DA6647492D68DC0AAF2DA43 /* Pods.debug.xcconfig */,
-				C9836AA2F1C6F0741655B359 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		C5A094C6035F5DEE97E1C949 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				994FCC65AAD18424E20533E2 /* Foundation.framework */,
-				9558FE71BAE29838580C0ED3 /* LocalAuthentication.framework */,
-				C68CA4388F56083AE2427BE0 /* Security.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F97086C336FC9AE67AD59AE4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6A0C33FFDFF1901DEBEDF062 /* SSKeychain */,
-				33A7C6BDDAB02A5AED76FD4F /* VENTouchLock */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FBE943B3B43A92C114347AAE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				83F1574CC66A2CD3A8E8A602 /* Info.plist */,
-				C6F616F5C7EC6E264E249BB2 /* Pods-VENTouchLock.modulemap */,
-				E99B1C60BFCB42249602765A /* Pods-VENTouchLock.xcconfig */,
-				F4C0348891BB12BF55BC4D7B /* Pods-VENTouchLock-Private.xcconfig */,
-				99A47D175945E09D59294A50 /* Pods-VENTouchLock-dummy.m */,
-				1871E4830D80CEB9A9756D69 /* Pods-VENTouchLock-prefix.pch */,
-				A4F13F87A0029BD68445DD6F /* Pods-VENTouchLock-umbrella.h */,
+				0753B4B3DF6D1636F815E46E /* Info.plist */,
+				074E555635A6C2F60E17EB52 /* Pods-VENTouchLock.modulemap */,
+				B8DF01D154C703175C641F10 /* Pods-VENTouchLock.xcconfig */,
+				72C949AA6486BC12CD12AB8D /* Pods-VENTouchLock-Private.xcconfig */,
+				18E96BEF14295B5F1095C381 /* Pods-VENTouchLock-dummy.m */,
+				3C0A2B7FA654B1D600531FE3 /* Pods-VENTouchLock-prefix.pch */,
+				47A2CE3C7F025DDF92B34AD8 /* Pods-VENTouchLock-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-VENTouchLock";
 			sourceTree = "<group>";
 		};
+		3FA2F54A978BD8BE8A7CF59B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99DE2D7F1BFB268E7BB1B667 /* Info.plist */,
+				2484EF7C2974E13F156FF17E /* Pods.modulemap */,
+				E4BD7C1448D6BB7E067096B8 /* Pods-acknowledgements.markdown */,
+				1B930D4F0352BF9F02915714 /* Pods-acknowledgements.plist */,
+				0C8E3B12164BEC908F534DC6 /* Pods-dummy.m */,
+				AA9FCDC13AF59350D538755F /* Pods-environment.h */,
+				788D0D85BD4411EA62ACC775 /* Pods-frameworks.sh */,
+				7D09322C6CD9C24DD212433B /* Pods-resources.sh */,
+				8C4F60E9386BA09AB51E181D /* Pods-umbrella.h */,
+				E7AD33223FFAEAFCE8C304B0 /* Pods.debug.xcconfig */,
+				2EBDA7C715F73D46AAE01AC7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		43E8E2A12E3FCA6619541051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				164CB4EAD7790AAA74322EB5 /* SSKeychain.framework */,
+				A03F6FA7A4260CDBACC38E37 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D4CE371FAFB33206B76E3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9089666EB0CED44C8305D087 /* FoldingTabBar */,
+				B48DEAC41ADF0E812271E3C8 /* SSKeychain */,
+				1C2E6E92500C82FE18C65C23 /* VENTouchLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9089666EB0CED44C8305D087 /* FoldingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC8228A2BF4B30799E54E15E /* CAAnimation+YALTabBarViewAnimations.h */,
+				98B7EBD7CCC95CB08AC7E38C /* CAAnimation+YALTabBarViewAnimations.m */,
+				A7DCFFBEAED8C45DA947B719 /* CATransaction+TransactionWithAnimationsAndCompletion.h */,
+				64D49D6EDF6C2F59CA0C1FDE /* CATransaction+TransactionWithAnimationsAndCompletion.m */,
+				DF70F12FF6C12B15FA509778 /* YALAnimatingTabBarConstants.h */,
+				146972BDFA0496276455389E /* YALAnimatingTabBarConstants.m */,
+				516B55C3463CF2644D6D7DD9 /* YALFoldingTabBar.h */,
+				D218D15D0ABEB7F5977DA423 /* YALFoldingTabBar.m */,
+				D6DF655CE2966911DA24A070 /* YALFoldingTabBarController.h */,
+				920915D942A43D855A99B119 /* YALFoldingTabBarController.m */,
+				64CE2100F8218BAE9B9A7F44 /* YALSpringAnimation.h */,
+				09F83DCAE7B972B7F52DA544 /* YALSpringAnimation.m */,
+				516BE2189708007F0961EEF8 /* YALTabBarInteracting.h */,
+				FD26E591500308C80542BDC0 /* YALTabBarItem.h */,
+				7C259C0AF07D07FFD5EF6593 /* YALTabBarItem.m */,
+				EB9865D4FBA3721777B17333 /* Support Files */,
+			);
+			path = FoldingTabBar;
+			sourceTree = "<group>";
+		};
+		A03F6FA7A4260CDBACC38E37 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				006A19D94FDF558600072C97 /* Foundation.framework */,
+				F496760128A38BB666AC9585 /* LocalAuthentication.framework */,
+				4B631E5027FDDAF973AD0AB3 /* QuartzCore.framework */,
+				DF90A8F227646D602034CD5F /* Security.framework */,
+				5FC198209B017D0AFA931E99 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3596EFD9E230B6E57C46797 = {
+			isa = PBXGroup;
+			children = (
+				8E283AAD10C9859EF7489EE0 /* Podfile */,
+				43E8E2A12E3FCA6619541051 /* Frameworks */,
+				8D4CE371FAFB33206B76E3EF /* Pods */,
+				EF6FEC56538B8867589384E6 /* Products */,
+				C5FF41BE58A8D14D499759CB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B48DEAC41ADF0E812271E3C8 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				F1C17A6A74F48230EDEF885F /* SSKeychain.h */,
+				78FA4FA9D4894746818B10F9 /* SSKeychain.m */,
+				36F07B9C9F41303A16D49610 /* SSKeychainQuery.h */,
+				E05F1ED07833505E61350A5D /* SSKeychainQuery.m */,
+				D56065B02C2F55DBCBDC8097 /* Support Files */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		C5FF41BE58A8D14D499759CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA2F54A978BD8BE8A7CF59B /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D56065B02C2F55DBCBDC8097 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C73B5E5606447B0DF33C49E /* Info.plist */,
+				615467E50210BB4F255E455E /* Pods-SSKeychain.modulemap */,
+				88C08ACA4A4D3336FFAE067D /* Pods-SSKeychain.xcconfig */,
+				D6C933F2A6DB21CDE55119D3 /* Pods-SSKeychain-Private.xcconfig */,
+				AAD5084FD98AB823FAFFF62D /* Pods-SSKeychain-dummy.m */,
+				FC53D2B6AFC973B8B5B8A407 /* Pods-SSKeychain-prefix.pch */,
+				E7336319697D3119496E8DB0 /* Pods-SSKeychain-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SSKeychain";
+			sourceTree = "<group>";
+		};
+		EB9865D4FBA3721777B17333 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC4962A7E081563898A1B8A0 /* Info.plist */,
+				6ACA4C7DD8808133577D9509 /* Pods-FoldingTabBar.modulemap */,
+				462B644C5B6CBAD4AEAFFA72 /* Pods-FoldingTabBar.xcconfig */,
+				875D516AAC7861843A1E6770 /* Pods-FoldingTabBar-Private.xcconfig */,
+				FB826647A636008E0CA008C1 /* Pods-FoldingTabBar-dummy.m */,
+				4239AD4E6BA1B7E9782C766A /* Pods-FoldingTabBar-prefix.pch */,
+				BBAE31D370B9F5A835C40023 /* Pods-FoldingTabBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FoldingTabBar";
+			sourceTree = "<group>";
+		};
+		EF6FEC56538B8867589384E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35BD3D2D41FD888D1F3DB89 /* FoldingTabBar.framework */,
+				4453C64DDB24BF479922B5AA /* Pods.framework */,
+				02CDF8AD94FB25565C734FF8 /* SSKeychain.framework */,
+				0460C306BF196F6DA63B6B5C /* VENTouchLock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		51C6FB84B47052B53BE85A8C /* Headers */ = {
+		589ECB5E7B61154E869A0922 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CB07504CEF54BA1D1FA5C1 /* Pods-umbrella.h in Headers */,
+				5F63ED7E5DEBBFD4D4D2CCAC /* CAAnimation+YALTabBarViewAnimations.h in Headers */,
+				11914321C7864D8A51969CF1 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */,
+				071541F2A7BC779C5D7D872C /* Pods-FoldingTabBar-umbrella.h in Headers */,
+				5DB70E956C2123AABB1892CC /* YALAnimatingTabBarConstants.h in Headers */,
+				85FD394DA5399560631350A8 /* YALFoldingTabBar.h in Headers */,
+				7B1A3488353AEDAC11509576 /* YALFoldingTabBarController.h in Headers */,
+				5A972179A8D1C6D978442DE5 /* YALSpringAnimation.h in Headers */,
+				8CF3EA78B68A866137FE51CF /* YALTabBarInteracting.h in Headers */,
+				341B00C05BF4A93B44AD1C91 /* YALTabBarItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F03D2231BB9F7B664E78C2 /* Headers */ = {
+		923AC743337C61E3A2B730CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FA2C52E940472AD8EB9E63 /* Pods-VENTouchLock-umbrella.h in Headers */,
-				B1625C01BB55658B59E24B13 /* UIViewController+VENTouchLock.h in Headers */,
-				89EB27F2B8177E2FD0EA90EC /* VENTouchLock.h in Headers */,
-				08D2FC37106EC9EA9A81E556 /* VENTouchLockAppearance.h in Headers */,
-				6EBA84FFCC6A0BB67FFF0140 /* VENTouchLockCreatePasscodeViewController.h in Headers */,
-				F548A4622E09978A74A1FEFB /* VENTouchLockEnterPasscodeViewController.h in Headers */,
-				3E863F619E213AD06DDBA91D /* VENTouchLockPasscodeCharacterView.h in Headers */,
-				B867C072098022081451062A /* VENTouchLockPasscodeView.h in Headers */,
-				DD01B081FD4B99878E15E17A /* VENTouchLockPasscodeViewController.h in Headers */,
-				3DC68291DD2A3169672C066E /* VENTouchLockSplashViewController.h in Headers */,
+				3896728E8FB6B14832F49688 /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90789FFA49B759F42EEE3053 /* Headers */ = {
+		E9EFBF4AEBBE8B08E53CD9DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D40FF9D617D9387E9549E9 /* Pods-SSKeychain-umbrella.h in Headers */,
-				08F3B688F805C7DCA9983B2B /* SSKeychain.h in Headers */,
-				2035D2E65115F12ADBDF1304 /* SSKeychainQuery.h in Headers */,
+				9E3499CDE742C3ED154F019B /* Pods-SSKeychain-umbrella.h in Headers */,
+				0A21643A414318DD021F4033 /* SSKeychain.h in Headers */,
+				A752F0DB45DE0BB56248C1A9 /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E4418E4C743A30FBFB683D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDE5437ABE6C3ABCBBAD08F /* Pods-VENTouchLock-umbrella.h in Headers */,
+				BA348E4D7F2BCFA9D6A65FF4 /* UIViewController+VENTouchLock.h in Headers */,
+				CEC7B4B456C4C3700856D63C /* VENTouchLock.h in Headers */,
+				20D45496A52DFAAC12EE12CC /* VENTouchLockAppearance.h in Headers */,
+				D681217CE0DFD021B9D4ED66 /* VENTouchLockCreatePasscodeViewController.h in Headers */,
+				933FD9EAD729A32646ED4FFA /* VENTouchLockEnterPasscodeViewController.h in Headers */,
+				1472D4B52F6A74BB43832DD2 /* VENTouchLockPasscodeCharacterView.h in Headers */,
+				37CEE8476879AB369008059A /* VENTouchLockPasscodeView.h in Headers */,
+				E6334B6B93F3F83C9491C81A /* VENTouchLockPasscodeViewController.h in Headers */,
+				2B8AA876482B5EBDD5AE0F0A /* VENTouchLockSplashViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		39B1E4558F20686CBE0D5631 /* Pods */ = {
+		37F1D9226B2203B42B32E316 /* Pods-VENTouchLock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7517526469F822459AC206B /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 4B5B1DACAC05AB48BCB60115 /* Build configuration list for PBXNativeTarget "Pods-VENTouchLock" */;
 			buildPhases = (
-				431A28350B1B0E4EF9ECB14E /* Sources */,
-				FFAA25C52E8FE0B454B17996 /* Frameworks */,
-				51C6FB84B47052B53BE85A8C /* Headers */,
+				5B09E61CD0FC4DA28F3BBDAA /* Sources */,
+				C72FC93129D95B3D3A268055 /* Frameworks */,
+				F4E4418E4C743A30FBFB683D /* Headers */,
+				5884185E15DA7703F7CDEC56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B024FD5F75966104D7E4531 /* PBXTargetDependency */,
-				DDE3BE350838063BC7279847 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 7066CB4DF2AE385BDB736802 /* Pods.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		54038D3648EE6FD429DD1965 /* Pods-VENTouchLock */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D26ACF638F3A3EFD9921648 /* Build configuration list for PBXNativeTarget "Pods-VENTouchLock" */;
-			buildPhases = (
-				20B7FAE7946E92F5B5AB2F1F /* Sources */,
-				8BE2C5DC5864466F7B5A21BA /* Frameworks */,
-				87F03D2231BB9F7B664E78C2 /* Headers */,
-				1AEF74571E3756569D5FC8D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				19AEDE2DE79751F94F5A57BB /* PBXTargetDependency */,
+				E1EE1AEF7C7F059EAED6D4EA /* PBXTargetDependency */,
 			);
 			name = "Pods-VENTouchLock";
 			productName = "Pods-VENTouchLock";
-			productReference = 46EAE45460F1C08ED750A584 /* VENTouchLock.framework */;
+			productReference = 0460C306BF196F6DA63B6B5C /* VENTouchLock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		924FF6DFBD546BD63B691DBE /* Pods-SSKeychain */ = {
+		7609C03A4483FFC4316D3B05 /* Pods-SSKeychain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4191AADEDB06BD8861F1A67C /* Build configuration list for PBXNativeTarget "Pods-SSKeychain" */;
+			buildConfigurationList = 374B5278E6E7A6B88967131A /* Build configuration list for PBXNativeTarget "Pods-SSKeychain" */;
 			buildPhases = (
-				07D6308FB69A8B1B8EA32BAC /* Sources */,
-				7BA4B975347EF854B0CE78DD /* Frameworks */,
-				90789FFA49B759F42EEE3053 /* Headers */,
+				6C2713B6115D685B49BA4303 /* Sources */,
+				1D1D126B7524145F1CB57CF9 /* Frameworks */,
+				E9EFBF4AEBBE8B08E53CD9DD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -404,110 +505,169 @@
 			);
 			name = "Pods-SSKeychain";
 			productName = "Pods-SSKeychain";
-			productReference = B620A66620E0EC21010C9E30 /* SSKeychain.framework */;
+			productReference = 02CDF8AD94FB25565C734FF8 /* SSKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2E89F8A80C62600D888EA56 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4856F53870CEE168C60C34F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				DC85716489810934EF85051F /* Sources */,
+				17FD31C1C081D83800A11C2B /* Frameworks */,
+				923AC743337C61E3A2B730CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3F7233FF0DA29CEAC5A50C4 /* PBXTargetDependency */,
+				FBDDEF459019183BAAF0B8A4 /* PBXTargetDependency */,
+				3C0B479EFB22F16F4CC31FA6 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 4453C64DDB24BF479922B5AA /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF83F3BBADF7851903ED405D /* Pods-FoldingTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC740CC257AC23402E7CB11 /* Build configuration list for PBXNativeTarget "Pods-FoldingTabBar" */;
+			buildPhases = (
+				911A1D8CC0291295098AA179 /* Sources */,
+				7BF229ADA1079654D913E159 /* Frameworks */,
+				589ECB5E7B61154E869A0922 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FoldingTabBar";
+			productName = "Pods-FoldingTabBar";
+			productReference = D35BD3D2D41FD888D1F3DB89 /* FoldingTabBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B2DE7FCBC3520D5893E42AA /* Project object */ = {
+		BD3E7BFE8EC526A1B67FFB23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = F0F8E8E2D7DD0FB6C01E1735 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 14FBA2D1C747F9ED43F8CF1F /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 84DA06FAB83B71D5C545EAD1;
-			productRefGroup = 16E9241D82B9C06F76E9DC01 /* Products */;
+			mainGroup = B3596EFD9E230B6E57C46797;
+			productRefGroup = EF6FEC56538B8867589384E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39B1E4558F20686CBE0D5631 /* Pods */,
-				924FF6DFBD546BD63B691DBE /* Pods-SSKeychain */,
-				54038D3648EE6FD429DD1965 /* Pods-VENTouchLock */,
+				E2E89F8A80C62600D888EA56 /* Pods */,
+				EF83F3BBADF7851903ED405D /* Pods-FoldingTabBar */,
+				7609C03A4483FFC4316D3B05 /* Pods-SSKeychain */,
+				37F1D9226B2203B42B32E316 /* Pods-VENTouchLock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1AEF74571E3756569D5FC8D2 /* Resources */ = {
+		5884185E15DA7703F7CDEC56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F5F352DF3ACBD13ED763D9 /* VENTouchLockPasscodeView.xib in Resources */,
+				D9A176E264C9459466AA0171 /* VENTouchLockPasscodeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07D6308FB69A8B1B8EA32BAC /* Sources */ = {
+		5B09E61CD0FC4DA28F3BBDAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A55FDEFE95860875EBD0FB0 /* Pods-SSKeychain-dummy.m in Sources */,
-				0AD92D4032DAC841CC0B009D /* SSKeychain.m in Sources */,
-				13E1FB8A44A3C94B81B8C2DF /* SSKeychainQuery.m in Sources */,
+				403FE2E2E6B632269F90D5F8 /* Pods-VENTouchLock-dummy.m in Sources */,
+				24CC6971917112AF2FDD6205 /* UIViewController+VENTouchLock.m in Sources */,
+				8E1BB9130911A3A4C808FEE7 /* VENTouchLock.m in Sources */,
+				3149709BC0FDA4D34014B2C0 /* VENTouchLockAppearance.m in Sources */,
+				1BA4CD2E03CD47C8B656BE58 /* VENTouchLockCreatePasscodeViewController.m in Sources */,
+				08D712C5653EE30C930B86E3 /* VENTouchLockEnterPasscodeViewController.m in Sources */,
+				108A54EFAA0917E1A2D1EA73 /* VENTouchLockPasscodeCharacterView.m in Sources */,
+				8E751E7BBE5D4FD433E1751C /* VENTouchLockPasscodeView.m in Sources */,
+				1CD425D2AB3FA6104AEEA019 /* VENTouchLockPasscodeViewController.m in Sources */,
+				317BDBC40FC60FDE649C18DF /* VENTouchLockSplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20B7FAE7946E92F5B5AB2F1F /* Sources */ = {
+		6C2713B6115D685B49BA4303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E274451EA1F69DF0C35065E /* Pods-VENTouchLock-dummy.m in Sources */,
-				9C01D94B0E40E1BC2523477C /* UIViewController+VENTouchLock.m in Sources */,
-				1964C32724EF1C56AEA55AE3 /* VENTouchLock.m in Sources */,
-				51AA191405505AC38EB3755C /* VENTouchLockAppearance.m in Sources */,
-				C5A4CEB539DBCF61A93B0693 /* VENTouchLockCreatePasscodeViewController.m in Sources */,
-				3B30743B9A9126A98C978AE3 /* VENTouchLockEnterPasscodeViewController.m in Sources */,
-				65321F830BFB31C2A2234176 /* VENTouchLockPasscodeCharacterView.m in Sources */,
-				2083EFB22B63C22BDDB31D65 /* VENTouchLockPasscodeView.m in Sources */,
-				2651390A942CA599E01BDAD8 /* VENTouchLockPasscodeViewController.m in Sources */,
-				9A240C856DFC2811942B7074 /* VENTouchLockSplashViewController.m in Sources */,
+				008A12623389D0D6747F5F4B /* Pods-SSKeychain-dummy.m in Sources */,
+				396F8E1D71D5AB97BA0C9171 /* SSKeychain.m in Sources */,
+				AC8F8775A868D8E4FBA58846 /* SSKeychainQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		431A28350B1B0E4EF9ECB14E /* Sources */ = {
+		911A1D8CC0291295098AA179 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC142C3615008EC94EE56EE4 /* Pods-dummy.m in Sources */,
+				8F44D7914E0D47B21FB36198 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				C4A738E2C03300E550EDDEA0 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				B9162AE68C5D1303FF019C21 /* Pods-FoldingTabBar-dummy.m in Sources */,
+				E624251AEACB857E55CBAAE6 /* YALAnimatingTabBarConstants.m in Sources */,
+				7C23BB1D7FF9775FCEE2BA85 /* YALFoldingTabBar.m in Sources */,
+				4AB151CB71C46DF863689383 /* YALFoldingTabBarController.m in Sources */,
+				F056C3D4B9363175EE1DAF31 /* YALSpringAnimation.m in Sources */,
+				D82FB7D588F6951BB94A5313 /* YALTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC85716489810934EF85051F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F665E8EF042FBB32E99760 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19AEDE2DE79751F94F5A57BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SSKeychain";
-			target = 924FF6DFBD546BD63B691DBE /* Pods-SSKeychain */;
-			targetProxy = 97C39602E51C34A5A56D9C22 /* PBXContainerItemProxy */;
-		};
-		6B024FD5F75966104D7E4531 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SSKeychain";
-			target = 924FF6DFBD546BD63B691DBE /* Pods-SSKeychain */;
-			targetProxy = E795241A0D306B05E2E33F7A /* PBXContainerItemProxy */;
-		};
-		DDE3BE350838063BC7279847 /* PBXTargetDependency */ = {
+		3C0B479EFB22F16F4CC31FA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VENTouchLock";
-			target = 54038D3648EE6FD429DD1965 /* Pods-VENTouchLock */;
-			targetProxy = FB53ED3FE94353ADC8F0FA2A /* PBXContainerItemProxy */;
+			target = 37F1D9226B2203B42B32E316 /* Pods-VENTouchLock */;
+			targetProxy = 59A54A45D8954D6CBA9D2976 /* PBXContainerItemProxy */;
+		};
+		C3F7233FF0DA29CEAC5A50C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FoldingTabBar";
+			target = EF83F3BBADF7851903ED405D /* Pods-FoldingTabBar */;
+			targetProxy = 2E6E9D371CBBED453C574670 /* PBXContainerItemProxy */;
+		};
+		E1EE1AEF7C7F059EAED6D4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SSKeychain";
+			target = 7609C03A4483FFC4316D3B05 /* Pods-SSKeychain */;
+			targetProxy = 9823116AEAED6375189FE873 /* PBXContainerItemProxy */;
+		};
+		FBDDEF459019183BAAF0B8A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SSKeychain";
+			target = 7609C03A4483FFC4316D3B05 /* Pods-SSKeychain */;
+			targetProxy = 548DDE4EA98B7B7FCB84D554 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		068F00EFE8A6D0F3C5CD4C49 /* Debug */ = {
+		0E0DD86D871C152F84988414 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ED2B49C2DFAA415B6821077 /* Pods-SSKeychain-Private.xcconfig */;
+			baseConfigurationReference = D6C933F2A6DB21CDE55119D3 /* Pods-SSKeychain-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -532,34 +692,7 @@
 			};
 			name = Debug;
 		};
-		79E4D19D03257150ACAB9D98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4C0348891BB12BF55BC4D7B /* Pods-VENTouchLock-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-VENTouchLock/Pods-VENTouchLock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-VENTouchLock/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-VENTouchLock/Pods-VENTouchLock.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VENTouchLock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A944705C06ACFCDD1C1492EB /* Release */ = {
+		0E710BCF89CA56E519FBD959 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -593,7 +726,7 @@
 			};
 			name = Release;
 		};
-		B3AB67DC30C4394EE132D979 /* Debug */ = {
+		442ACD18B11853864A6592A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -632,36 +765,9 @@
 			};
 			name = Debug;
 		};
-		E375D5CDD2E9898CEB11C35A /* Release */ = {
+		46E53C49659783B03502B05A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ED2B49C2DFAA415B6821077 /* Pods-SSKeychain-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SSKeychain/Pods-SSKeychain-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-SSKeychain/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SSKeychain/Pods-SSKeychain.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SSKeychain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9351DE6E9449A18407047A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4C0348891BB12BF55BC4D7B /* Pods-VENTouchLock-Private.xcconfig */;
+			baseConfigurationReference = 72C949AA6486BC12CD12AB8D /* Pods-VENTouchLock-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -686,9 +792,63 @@
 			};
 			name = Debug;
 		};
-		FA89CD7E63A49100DF43FA9F /* Debug */ = {
+		71617600E924DFFA037ECCB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DA6647492D68DC0AAF2DA43 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = D6C933F2A6DB21CDE55119D3 /* Pods-SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SSKeychain/Pods-SSKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SSKeychain/Pods-SSKeychain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7868101BB065F9D7086339CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875D516AAC7861843A1E6770 /* Pods-FoldingTabBar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FoldingTabBar/Pods-FoldingTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoldingTabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FoldingTabBar/Pods-FoldingTabBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FoldingTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82E2569E38A8ACA8A4A0171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AD33223FFAEAFCE8C304B0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -715,9 +875,9 @@
 			};
 			name = Debug;
 		};
-		FD43C86F63F98025E1E8ADBE /* Release */ = {
+		A2CB706947765CB454D38A3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9836AA2F1C6F0741655B359 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 2EBDA7C715F73D46AAE01AC7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -744,46 +904,109 @@
 			};
 			name = Release;
 		};
+		D759F56B98D6607E0A56212B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875D516AAC7861843A1E6770 /* Pods-FoldingTabBar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FoldingTabBar/Pods-FoldingTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoldingTabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FoldingTabBar/Pods-FoldingTabBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FoldingTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9045B0D75943409E506417B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C949AA6486BC12CD12AB8D /* Pods-VENTouchLock-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VENTouchLock/Pods-VENTouchLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-VENTouchLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VENTouchLock/Pods-VENTouchLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VENTouchLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D26ACF638F3A3EFD9921648 /* Build configuration list for PBXNativeTarget "Pods-VENTouchLock" */ = {
+		14FBA2D1C747F9ED43F8CF1F /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9351DE6E9449A18407047A4 /* Debug */,
-				79E4D19D03257150ACAB9D98 /* Release */,
+				442ACD18B11853864A6592A8 /* Debug */,
+				0E710BCF89CA56E519FBD959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4191AADEDB06BD8861F1A67C /* Build configuration list for PBXNativeTarget "Pods-SSKeychain" */ = {
+		374B5278E6E7A6B88967131A /* Build configuration list for PBXNativeTarget "Pods-SSKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				068F00EFE8A6D0F3C5CD4C49 /* Debug */,
-				E375D5CDD2E9898CEB11C35A /* Release */,
+				0E0DD86D871C152F84988414 /* Debug */,
+				71617600E924DFFA037ECCB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0F8E8E2D7DD0FB6C01E1735 /* Build configuration list for PBXProject "Pods" */ = {
+		4B5B1DACAC05AB48BCB60115 /* Build configuration list for PBXNativeTarget "Pods-VENTouchLock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AB67DC30C4394EE132D979 /* Debug */,
-				A944705C06ACFCDD1C1492EB /* Release */,
+				46E53C49659783B03502B05A /* Debug */,
+				F9045B0D75943409E506417B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7517526469F822459AC206B /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		7AC740CC257AC23402E7CB11 /* Build configuration list for PBXNativeTarget "Pods-FoldingTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA89CD7E63A49100DF43FA9F /* Debug */,
-				FD43C86F63F98025E1E8ADBE /* Release */,
+				D759F56B98D6607E0A56212B /* Debug */,
+				7868101BB065F9D7086339CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4856F53870CEE168C60C34F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E2569E38A8ACA8A4A0171A /* Debug */,
+				A2CB706947765CB454D38A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4B2DE7FCBC3520D5893E42AA /* Project object */;
+	rootObject = BD3E7BFE8EC526A1B67FFB23 /* Project object */;
 }

@@ -16,8 +16,12 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="dSY-Vg-2ez">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGT-xP-Mem">
-                    <rect key="frame" x="203" y="181" width="68" height="30"/>
+                    <rect key="frame" x="112" y="176" width="86" height="31"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                     <state key="normal" title="Passcode">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -26,7 +30,8 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSO-EO-Mv4">
-                    <rect key="frame" x="345" y="181" width="59" height="30"/>
+                    <rect key="frame" x="262" y="177" width="77" height="30"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                     <state key="normal" title="Touch Id">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -36,6 +41,15 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dSY-Vg-2ez" secondAttribute="trailing" id="75G-hi-uaf"/>
+                <constraint firstItem="dSY-Vg-2ez" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9D0-Dl-oHo"/>
+                <constraint firstAttribute="bottom" secondItem="dSY-Vg-2ez" secondAttribute="bottom" id="gxK-5r-tMd"/>
+                <constraint firstItem="dSY-Vg-2ez" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jY4-ah-5ua"/>
+            </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="gradient" width="2160" height="1536"/>
+    </resources>
 </document>

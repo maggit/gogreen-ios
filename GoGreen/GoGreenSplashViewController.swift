@@ -16,7 +16,7 @@ class GoGreenSplashViewController: VENTouchLockSplashViewController {
     func viewDidAppear() {
         super.viewDidAppear(true)
         if(!VENTouchLock.shouldUseTouchID()){
-            touchButton.hidden = true
+            touchButton.hidden = false
         }
         // Do any additional setup after loading the view.
     }
