@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "splash.png"
+      "filename" : "active_dot.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "splash-1.png"
+      "filename" : "active_dot@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "splash-2.png"
+      "filename" : "active_dot@3x.png"
     }
   ],
   "info" : {
